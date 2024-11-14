@@ -1,6 +1,6 @@
 import requests
 import streamlit as st
-st.title("JB Weather App ")
+st.title("Weather App ")
 city =st.text_input("Enter City:")
 button = st.button("Get Weather Info")
 url = 'http://api.openweathermap.org/data/2.5/weather?q={}&appid=b467cbdd7b3bfc7fea06dce564de4eb4&units=metric'.format(city)
